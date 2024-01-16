@@ -1,0 +1,21 @@
+h1 {
+    color: steelblue;
+}
+img {
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
+    height: auto;
+    padding: 2px;
+    width: 150px;
+}
+nav {
+    background-color: steelblue;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+p {
+    padding: 10px;
+}
