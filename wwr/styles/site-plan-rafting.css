@@ -1,21 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 :root {
-    --primary-color: #ABC1D8;
-    --secondary-color: #1C448E;
-    --accent1-color: #C3A397;
-    --accent2-color: #F5FFC6;
+    --primary-color: #1C448E;
+    --secondary-color: #5783B2;
+    --accent1-color: #F5FFC6;
+    --accent2-color: #C3A397;
 
-    --heading-font: 'Roboto Condensed', Tahoma sans-serif;
+    --heading-font: 'Roboto', Tahoma sans-serif;
     --paragraph-font: 'Open Sans', 'Trebuchet MS', sans-serif;
 
-    --nav-background-color: #ffffff;
+    --body-background-color: #E2E5D5;
+
+    --nav-background-color: #E2E5D5;
     --nav-link-color:#0B0FF6;
     --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #D02530;
 }
 
 body {
+    background-color: var(--body-background-color);
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
@@ -42,7 +45,7 @@ nav a {
     color: var(--nav-link-color);
     display: flex;
     padding: 1rem;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 nav a:link, nav a:visited {
