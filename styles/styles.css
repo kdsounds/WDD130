@@ -7,7 +7,6 @@
 aside h2 {
     left: 0px;
     position: relative;
-    text-align: center;
     top: 0px;
     width: 200px;
 }
@@ -38,7 +37,7 @@ li a {
     padding: 0px;
 }
 
-  main {
+main {
     max-width: 840px;
 }
 
