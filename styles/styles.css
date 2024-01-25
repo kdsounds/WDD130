@@ -6,18 +6,20 @@
 
 aside {
     text-align: center;
+    position: relative;
     width: 400px;
 }
 
 aside h2 {
     left: 0px;
-    position: relative;
+    position: absolute;
     top: 0px;
     width: 400px;
 }
 
 aside img {
     height: auto;
+    padding: 10px;
     width: 200px;
 }
 
