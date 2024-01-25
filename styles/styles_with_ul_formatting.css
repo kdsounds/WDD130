@@ -13,12 +13,13 @@ aside {
 aside h2 {
     left: 0px;
     position: absolute;
-    top: 15px;
+    top: 40px;
     width: 400px;
 }
 
 aside img {
     height: auto;
+    padding: 10px;
     width: 200px;
 }
 
@@ -30,11 +31,21 @@ footer {
 
 h1 {
     color: steelblue;
-    margin: 1rem;
+}
+
+li {
+    float: left;
+    margin: 10px;
+    padding: 0px;
+}
+
+li a {
+    display: block;
+    padding: 0px;
 }
 
 main {
-    max-width: 640px;
+    max-width: 840px;
 }
 
 main img {
@@ -48,18 +59,22 @@ main img {
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    text-align: center;
 }
 
 nav a {
     color: white;
-    display: block;
-    padding: 5px;
+    display:inline-table;
+    padding: 10px;
 }
 
 p {
-    margin: 1rem;
     padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
 }
 
 /* Class Selectors */
@@ -69,8 +84,4 @@ p {
     color: black;
     margin: 1rem;
     padding: 1rem;
-}
-
-.indent {
-    padding-left: 2rem;
 }
