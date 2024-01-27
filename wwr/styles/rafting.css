@@ -3,38 +3,44 @@
 :root {
     --primary-color: #1C448E;
     --secondary-color: #5783B2;
-    --box-color: tan;
+    --heading-color: #d0d7ad;
+    --body-background-color: #e2e5d5;
+    --box-color: #d8debb;
     --accent1-color: #F5FFC6;
     --accent2-color: #C3A397;
 
     --heading-font: 'Roboto', Tahoma sans-serif;
     --paragraph-font: 'Open Sans', 'Trebuchet MS', sans-serif;
 
-    --body-background-color: #E2E5D5;
-
     --nav-background-color: #E2E5D5;
     --nav-link-color:#0B0FF6;
     --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: brown;
+    --nav-hover-background-color: #4b1919;
 }
 
-* {
-    max-width: 1500px;
+body {
+    background-color: var(--body-background-color);
+    margin: 0 auto;
+    padding: 10px;
+    width: 1200px;
 }
 
 article {
-    background-color: light;
-    opacity: 0.2;
+    left: 0;
+    background-color: rgba(216, 222, 187, 0.8);
+    margin: 0 auto;
+    max-width: 80%;
     position: absolute;
-}
-
-article img {
-    float: right;
-    opacity: 1.0;
-    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 100px;
 }
 
 h1 {
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     color: var(--primary-color);
     font-family: var(--heading-font);
     position: absolute;
@@ -47,31 +53,82 @@ h2 {
     text-align: center;
 }
 
+header {
+    background-color: var(--heading-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    text-align: left;
+}
+
+nav {
+    display:inline-flex;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    display: flex;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
 p {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+}
+
+section {
+    background-color: var(--box-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+section img {
+    padding: 5px;
+    width: 150px;
 }
 
 .hero {
     position: relative;
 }
 
+.hero article img {
+    float: right;
+    opacity: 1;
+    width: 200px;
+}
+
 .hero img {
     display: block;
     height: auto;
-    opacity: 0.2;
+    opacity: 0.3;
     width: 100%;
 }
 
 .sociallinks {
-    text-align: center;
-}
-
-.sociallinks a:link {
     text-decoration: none;
+}
+.sociallinks a {
+    display: flex;
+    padding: 0rem;
+    text-align: center;
 }
 
 .sociallinks img {
     height: auto;
-    width: 50px;
+    width: 60%;
 }
