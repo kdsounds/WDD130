@@ -93,6 +93,7 @@ p {
     grid-column: auto;
     grid-row: auto;
 }
+
 .indent {
     padding-left: 2rem;
 }
