@@ -73,13 +73,13 @@ header {
     color: var(--secondary-color);
     display: grid;
     gap: 5px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     padding: 10px;
     text-align: center;
 }
 
 header img {
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 1;
     width: 75px;
 }
@@ -94,6 +94,8 @@ nav {
     flex: 200px;
     flex-direction: row;
     flex-wrap: wrap;
+    grid-column: 3/4;
+    grid-row: 1;
     font-size: 1.2rem;
     justify-content: normal;
 }
