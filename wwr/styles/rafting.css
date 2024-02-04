@@ -163,19 +163,20 @@ section img {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(5, 1fr);
-    margin-top: 10px;
-    margin-bottom: 10px;
     padding: 0px;
 }
 
 .about-pictures h2 {
-    background-color: var(--box-color);
-    display: grid;
     grid-column: 1/6;
     grid-row: 1/2;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
+}
+
+.about-pictures p {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .about-pictures img {
@@ -184,31 +185,31 @@ section img {
 
 .about-pictures-one {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 3/4;
     text-align: center;
 }
 
 .about-pictures-two {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     text-align: center;
 }
 
 .about-pictures-three {
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 3/4;
     text-align: center;
 }
 
 .about-pictures-four {
     grid-column: 4/5;
-    grid-row: 2/3;
+    grid-row: 3/4;
     text-align: center;
 }
 
 .about-pictures-five {
     grid-column: 5/6;
-    grid-row: 2/3;
+    grid-row: 3/4;
     text-align: center;
 }
 
