@@ -1,0 +1,21 @@
+caption {
+    color: navy;
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+thead, tfoot {
+    background-color: #333;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: .8rem;
+}

@@ -34,6 +34,7 @@ header, .grid, footer {
     margin: 0 auto;
     max-width: 840px;
 }
+
 h1 {
     border-bottom-style: double;
     color: steelblue;
