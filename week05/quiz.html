@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 130 | HTML/CSS Questionaire</title>
+        <meta name="description" content="Ken Davis, wdd130">
+        <meta name="author" content="Ken Davis">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 HTML/CSS Questionaire</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <label for="q1">What does the acronym HTML mean?</label>
+                    <input type="text" id="q1" name="q1">
+
+                    <label for="q2">What is the hardest part of learning CSS?</label>
+                    <textarea name="q2" id="q2" cols="30" rows="4" placeholder=""></textarea>
+
+                    <label for="q3">What is the universal selector?</label>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="span">span</option>
+                        <option value="combinator">combinator</option>
+                        <option value="class">class</option>
+                        <option value="asterisk">asterisk</option>
+                    </select>
+
+                    <label for="q4">What is the current HTML version #?</label>
+                    <input type="number" id="q4" name="q4" min="1" max="5">
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy;2024 🤙 HTML Form - User Poll Activity 🤙 Ken Davis</p>
+        </footer>
+    </body>
+</html>
