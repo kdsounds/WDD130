@@ -37,7 +37,7 @@ button {
     border-radius: .5rem;
     font-size: 1.2rem;
     color: white;
-    margin: 1rem;
+    margin: auto;
     padding: .75rem;
     width: 200px;
 }
@@ -111,7 +111,7 @@ legend {
 }
 
 .column1 {
-    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-columns: 1.5fr 1fr;
     margin: 0.1rem 0;
 }
 
