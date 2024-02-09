@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 :root {
-    --primary-color: #c1fdd8d6;
-    --heading-color: #7a8b25;
-    --footer-color: #7a8b25;
-    --body-background-color: #f5eccf;
-    --accent-color: #c88d78;
-    --border-color: #945018;
+    --primary-color: #f6fcf8d6;
+    --heading-color: #54471d;
+    --footer-color: #54471d;
+    --body-background-color: #f5e3cf;
+    --accent-color: #7e3f0b;
+    --border-color: #693d18;
 
     --heading-font: 'Roboto', Tahoma sans-serif;
     --paragraph-font: 'Open Sans', 'Trebuchet MS', sans-serif;
@@ -83,11 +83,17 @@ h1 {
 }
 
 input, select, textarea {
-    font-size: 1.2rem;
-    padding: .5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
 }
 
 label {
-    padding-right: 1rem;
-    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: left;
+}
+
+.numbold {
+    color: #f6b867;
+    font-weight: bold;
 }
