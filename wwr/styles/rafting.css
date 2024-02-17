@@ -235,7 +235,17 @@ textarea {
     text-align: center;
 }
 
-.contact-button {
+.contact-form {
+    background-color: var(--box-color);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 600px;
+}
+
+.contact-form button {
     background-color: var(--button-color-1);
     border:none;
     border-radius: .5rem;
@@ -247,20 +257,10 @@ textarea {
     width: 200px;
 }
 
-.contact-button:hover {
+.contact-form button:hover {
     background-color: var(--button-color-2);
     font-size: 1rem;
     padding: 0.75rem;
-}
-
-.contact-form {
-    background-color: var(--box-color);
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    display: grid;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 600px;
 }
 
 .contact-form p {
