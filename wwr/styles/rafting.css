@@ -19,7 +19,6 @@
 
     --button-color-1: #ae8456;
     --button-color-2: #ffffff;
-
 }
 
 article {
@@ -38,6 +37,16 @@ body {
     margin: 0 auto;
     padding: 10px;
     width: 1200px;
+}
+
+caption {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 fieldset {
@@ -70,6 +79,12 @@ h1 {
 }
 
 h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+h3 {
     color: var(--primary-color);
     font-family: var(--heading-font);
     text-align: center;
@@ -148,6 +163,36 @@ section img {
     padding: 5px;
     position: relative;
     width: 150px;
+}
+
+table {
+    border: var(--box-color);
+    border-collapse: collapse;
+    float: center;
+    margin: 50px auto;
+    padding: 20px;
+    width: 100%;
+}
+
+thead, tfoot {
+    background-color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-size: 1rem;
+}
+
+tbody {
+    background-color: var(--nav-background-color);
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+}
+
+th, td {
+    border: 1px solid var(--accent2-color);
+    padding: .8rem;
+}
+
+tr:nth-child(even) {
+    background-color: var(--box-color);
 }
 
 textarea {
@@ -417,4 +462,185 @@ textarea {
 .sociallinks img {
     height: auto;
     width: 50%;
+}
+
+.trips-details {
+    background-color: var(--box-color);
+    display: grid;
+    height: auto;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
+}
+
+.trips-details h2 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.trips-details h3 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.trips-details p {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.trips-details img {
+    padding: 0px;
+    height: auto;
+    width: 20rem;
+}
+
+.trips-details-one {
+    border-color: var(--box-color);
+    border-style: ridge;
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 3/4;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.trips-details-one h3 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.trips-details-one-one {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-one-two {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-one-three {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-one p {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.trips-details-two {
+    border-color: var(--box-color);
+    border-style: ridge;
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 4/5;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.trips-details-two h3 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.trips-details-two-one {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-two-two {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-two-three {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-two p {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.trips-details-three {
+    border-color: var(--box-color);
+    border-style: ridge;
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 5/6;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.trips-details-three h3 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.trips-details-three-one {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-three-two {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-three-three {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.trips-details-three p {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.trips-top {
+    position: relative;
+}
+
+.trips-top h1 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.trips-top img {
+    display: block;
+    height: 20rem;
+    width: 100%;
+}
+
+.trips-top p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
