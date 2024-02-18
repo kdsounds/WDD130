@@ -168,7 +168,6 @@ section img {
 table {
     border: var(--box-color);
     border-collapse: collapse;
-    float: center;
     margin: 50px auto;
     padding: 20px;
     width: 100%;
