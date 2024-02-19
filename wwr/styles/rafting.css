@@ -34,7 +34,6 @@ article {
 
 body {
     background-color: var(--body-background-color);
-    background-color: var(--body-background-color);
     margin: 0 auto;
     padding: 10px;
     width: 1200px;
@@ -287,7 +286,7 @@ textarea {
     border-radius: 0.5rem;
     display: grid;
     margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin-top: 1.1rem;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
@@ -472,19 +471,18 @@ textarea {
 }
 
 .home-images-two {
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 4/5;
     text-align: center;
 }
 
 .home-images p {
     font-family: var(--paragraph-font);
     font-size: 1rem;
-    grid-column: 1/6;
+    grid-column: 1/3;
     grid-row: 1/2;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center;
 }
 
 .home-newsletter {
@@ -499,7 +497,6 @@ textarea {
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 600px;
 }
 
 .home-newsletter button {
