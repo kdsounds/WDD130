@@ -65,6 +65,7 @@ figcaption {
 
 footer {
     display: grid;
+    font-size: 0.9rem;
     gap: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -441,6 +442,118 @@ textarea {
     width: 100%;
 }
 
+.home-cta {
+    text-align: center;
+}
+
+.home-images {
+    background-color: var(--box-color);
+    display: grid;
+    height: auto;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+}
+
+.home-images img {
+    padding: 0px;
+    height: auto;
+    width: 30rem;
+}
+
+.home-images-one {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.home-images-two {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.home-images p {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.home-newsletter {
+    background-color: var(--box-color);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 600px;
+}
+
+.home-newsletter button {
+    background-color: var(--button-color-1);
+    border:none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    width: 200px;
+}
+
+.home-newsletter h2 {
+    font-size: 1rem;
+}
+
+.home-newsletter button:hover {
+    background-color: var(--button-color-2);
+    font-size: 1rem;
+    padding: 0.75rem;
+}
+
+.home-top {
+    position: relative;
+}
+
+.home-top h1 {
+    left: 0;
+    right: 0;
+    margin-top: 175px;
+    padding-top: 2rem;
+}
+
+.home-top img {
+    display: block;
+    width: 100%;
+}
+
+.home-top p {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.home-top-section {
+    background-color: var(--body-background-color);
+    position: relative;
+}
+
+.home-top-section img {
+    position: absolute;
+    height: auto;
+    width: 25%;
+    margin-left: 425px;
+}
+
 .nav-button {
     background-color: var(--body-background-color);
     border: 1px solid #000000;
@@ -475,6 +588,9 @@ textarea {
 .trips-details h2 {
     grid-column: 1/6;
     grid-row: 1/2;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    padding: 0px;
 }
 
 .trips-details h3 {
@@ -628,7 +744,8 @@ textarea {
 .trips-top h1 {
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
 }
 
 .trips-top img {
@@ -638,8 +755,8 @@ textarea {
 }
 
 .trips-top p {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
